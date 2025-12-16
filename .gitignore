@@ -1,6 +1,10 @@
 # Zip files
 *.zip
 
+# Large data files (>100MB)
+*.shp
+datasets/*/raw/
+
 # Node.js / Vite
 node_modules/
 npm-debug.log*
